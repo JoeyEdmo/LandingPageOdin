@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main {
+    background-color: white;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9fAf8;
+    background-color: #1f2937;
+    padding: 16px;
+    flex: 1 0 100%;
+}
+.sec1txt{
+    color: #f9fAf8;
+    background-color: #1f2937;
+    padding-right: 16px;
+    max-width: 350px;
+}
+.pholder1 {
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 {
+    flex: 1 0 100%;
+    text-align: center;
+}
+.pair{
+    width: 100px;
+}
+.sec2container{
+    display: flex;
+    justify-content: center;
+}
+.pholder2 {
+    width: 80px;
+    height: 80px;
+    border: 5px lightblue;
+}
+.sec3 {
+    background-color: #e5e7eb;
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4 {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    width: 400px;
+}
+
+.bigwords{
+    font-size: 48px;
+    font-weight: 800;
+}
+.smallwords{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.footer, .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 16px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+a:link {
+    text-decoration: none;
+}
